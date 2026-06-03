@@ -1,0 +1,6 @@
+node_modules/
+.env
+output/
+frozen/
+prompts-deterministic/
+.DS_Store

@@ -1,0 +1,122 @@
+{
+  "account": "Northwind",
+  "tagline": "Buyer committee and 30-day multi-thread play",
+  "evidence": "help.northwind.example embeds Loom on 40 articles - the heaviest Loom user in the set",
+  "csTerm": "Customer Success",
+  "pains": [
+    {
+      "theme": "#1  Stability since the Atlassian move",
+      "quote": "Users report crashes during recording, videos that fail to upload, audio that desynchronises from video.",
+      "source": "Demosmith 2026",
+      "fit": "Loom is embedded across 40 help articles, so a Loom failure shows up right in a customer's onboarding."
+    },
+    {
+      "theme": "#6  Inconsistent video quality and weak editing",
+      "quote": "The video quality can be inconsistent at times, and the editing options are quite limited.",
+      "source": "G2",
+      "fit": "Northwind's onboarding rides on Loom across 40 help articles; inconsistent quality and thin editing show up across that help center."
+    }
+  ],
+  "evidenceShots": [
+    { "file": "evidence-1.png", "caption": "help.northwind.example/articles/1001" },
+    { "file": "evidence-2.png", "caption": "help.northwind.example/articles/1002" }
+  ],
+  "committee": [
+    {
+      "name": "Jordan Lee",
+      "title": "Sr Customer Success Manager",
+      "role": "CHAMPION",
+      "tier": "entry",
+      "order": 1,
+      "send": "Day 7-8 (after they accept)",
+      "linkedin": "https://www.linkedin.com/in/example-jordan-lee",
+      "photo": null,
+      "dm": "You are closest to the customer, so you will feel this faster than anyone: the async video a lot of CS teams lean on (Loom) has gotten shaky since the Atlassian move, and getting customers to actually watch was never solved. Northwind runs Loom across its help center harder than anyone, 40 articles. We built a reliable, watch-first alternative. Happy to show you what it does to completion rates."
+    },
+    {
+      "name": "Riley Chen",
+      "title": "VP, Customer Success",
+      "role": "PRIMARY",
+      "tier": "entry",
+      "order": 2,
+      "send": "Day 10 (after they accept)",
+      "linkedin": "https://www.linkedin.com/in/example-riley-chen",
+      "photo": null,
+      "dm": "Congrats on the top Customer Success seat. A lot of CS teams are getting burned by Loom right now, stability since the Atlassian move and the old problem of customers never watching. Northwind runs Loom across your help center harder than anyone, 40 articles. We built a reliable, watch-first alternative with real analytics. Worth a look as you audit how customers self-serve."
+    },
+    {
+      "name": "Sam Patel",
+      "title": "Sr Manager, Revenue Operations",
+      "role": "OPS",
+      "tier": "escalate",
+      "order": 3,
+      "send": "Day 15 (only on signal)",
+      "linkedin": "https://www.linkedin.com/in/example-sam-patel",
+      "photo": null,
+      "dm": "From a RevOps seat the issue with the async video most teams run (Loom) is consistency: stability problems since the Atlassian move, and no real signal on whether customers actually watch. We built a reliable, CS-first alternative with proper watch analytics. Worth comparing against what you run today?"
+    },
+    {
+      "name": "Casey Morgan",
+      "title": "SVP, Sales",
+      "role": "ECONOMIC",
+      "tier": "escalate",
+      "order": 4,
+      "send": "Day 18 (only on signal)",
+      "linkedin": "https://www.linkedin.com/in/example-casey-morgan",
+      "photo": null,
+      "dm": "Customer ramp and retention both leak when the onboarding video layer is unreliable or unwatched, and that is the state of Loom for a lot of teams right now. We built a CS-first video alternative focused on reliability and viewed-rate, aimed at faster ramp and lower churn. Worth 15 minutes on the revenue angle?"
+    },
+    {
+      "name": "Avery Smith",
+      "title": "CEO",
+      "role": "ESCALATION",
+      "tier": "last",
+      "order": 5,
+      "send": "Day 22 (only if a thread is warm)",
+      "linkedin": "https://www.linkedin.com/in/example-avery-smith",
+      "photo": null,
+      "dm": "Given Northwind's whole promise is customer confidence: the video layer running across your help center (Loom) has been unreliable since the Atlassian move, and completion was always the weak spot. I have started comparing notes with a couple of people on your Customer Success team about what we built, a reliable CS-video tool with real watch analytics. Happy to show you the ramp angle."
+    }
+  ],
+  "sequenceNote": "Day numbers are illustrative pacing, not hard dates. The gates (connection accepted, reply, clear engagement) drive timing, not the calendar.",
+  "sequence": [
+    {
+      "phase": "Week 1  -  connect + warm up",
+      "steps": [
+        { "day": "Day 1", "tone": "connect", "text": "Connection request to Jordan (champion) and Riley (primary). No message, or a one-line non-pitch note." },
+        { "day": "Days 2-6", "tone": "warm", "text": "Warm up: like and comment on Jordan's and Riley's recent activity. Genuine, spread out." }
+      ]
+    },
+    {
+      "phase": "Week 2  -  open champion, then primary",
+      "steps": [
+        { "day": "Day 7-8", "tone": "dm", "text": "Once Jordan accepts, send their DM (champion / practitioner angle, lowest risk first)." },
+        { "day": "Day 10", "tone": "dm", "text": "Once Riley accepts, send their DM (primary), citing the help-center Loom evidence." },
+        { "day": "Days 12-14", "tone": "connect", "text": "Connection requests to Sam (ops) and Casey (economic) + light warm-up. Do NOT DM them yet." }
+      ]
+    },
+    {
+      "phase": "Week 3  -  escalate ONLY on a signal",
+      "branch": {
+        "if": "Jordan or Riley replied or clearly engaged",
+        "then": "Day 15 send Sam's DM (ops), Day 18 send Casey's DM (economic). Reference only the conversations you have genuinely started; drop the social-proof line if neither engaged.",
+        "else": "Both silent: Day 15 send a value-add follow-up to Jordan and Riley instead. Do NOT escalate to the exec layer."
+      }
+    },
+    {
+      "phase": "Week 4  -  widen + close the loop",
+      "steps": [
+        { "day": "Day 22", "tone": "dm", "text": "Send Avery's DM (CEO) ONLY if a thread is genuinely warm and worth a top-level nudge." },
+        { "day": "Days 25-28", "tone": "warm", "text": "Final follow-up on open threads, each adding something new, never just a bump." },
+        { "day": "Day 30", "tone": "stop", "text": "If the whole committee is cold, stop and move the account to a nurture list." }
+      ]
+    }
+  ],
+  "rules": [
+    "Never DM before the connection is accepted.",
+    "Champion first; escalate to the economic buyer only on a reply or clear engagement.",
+    "Max 2 touches per person. If ignored twice, stop that node.",
+    "If anyone replies positively, drop the cadence and go fully human.",
+    "Only claim internal interest that literally exists. If the champion or primary has not engaged, cut the \"people on your team are looking at it\" line."
+  ]
+}

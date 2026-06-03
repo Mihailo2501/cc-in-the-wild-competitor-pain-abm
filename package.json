@@ -1,0 +1,17 @@
+{
+  "name": "cc-in-the-wild-loom-abm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CC in the Wild: Loom-customer ABM demo. Find Loom's customers, prove they embed Loom, map the CS buyer committee, and draft multi-threaded outreach + a brand-themed account microsite.",
+  "scripts": {
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "firecrawl": "4.19.0",
+    "playwright": "1.59.1"
+  },
+  "devDependencies": {
+    "marked": "18.0.4"
+  }
+}

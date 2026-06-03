@@ -1,10 +1,14 @@
 # CC in the Wild: Loom-customer ABM kit
 
+![Potter scans a field of help centers, finds the ones that embed Loom, and threads the signal across to a mapped customer-success buying committee](assets/hero.png)
+
 A copy-paste kit for running an account-based outbound play with [Claude Code](https://claude.com/claude-code) and the [Potter MCP](https://github.com/Mihailo2501/potter-mcp). You detect which companies embed Loom in their own help centers, prove it with screenshots, map each company's customer-success buying committee, and draft a multi-threaded outreach playbook plus a brand-themed one-page microsite per account. Everything is read-only research and draft-only. Nothing is ever sent.
 
 ## What you build
 
 Running the five prompts in order produces, for two example companies (Loop and Planhat):
+
+![The pipeline: find Loom-embedding help centers, prove it with screenshots, map the customer-success committee, write one message per stakeholder, then build a brand-themed account site](assets/pipeline.gif)
 
 - an **evidence PDF**: screenshots of the actual help-center pages where they embed Loom,
 - a **buyer-committee map** of their customer-success org,
